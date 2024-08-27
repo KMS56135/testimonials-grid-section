@@ -596,8 +596,20 @@ body {
   height: 100vh;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-8 {
   width: 2rem;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .content-center {
@@ -710,6 +722,26 @@ body {
   line-height: 138%;
 }
 
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
+}
+
 .text-light-gray {
   --tw-text-opacity: 1;
   color: hsl(0 0% 81% / var(--tw-text-opacity));
@@ -787,6 +819,14 @@ body {
     grid-column-end: 5;
   }
 
+  .min-\[1440px\]\:row-span-2 {
+    grid-row: span 2 / span 2;
+  }
+
+  .min-\[1440px\]\:row-span-1 {
+    grid-row: span 1 / span 1;
+  }
+
   .min-\[1440px\]\:row-start-1 {
     grid-row-start: 1;
   }
@@ -809,6 +849,68 @@ body {
 
   .min-\[1440px\]\:grid-rows-\[282px\2c 266px\] {
     grid-template-rows: 282px 266px;
+  }
+
+  .min-\[1440px\]\:grid-rows-\[100px\] {
+    grid-template-rows: 100px;
+  }
+
+  .min-\[1440px\]\:grid-rows-\[repeat\2c 266px\] {
+    grid-template-rows: repeat 266px;
+  }
+
+  .min-\[1440px\]\:grid-rows-\[repeat\(\)\2c 266px\] {
+    grid-template-rows: repeat() 266px;
+  }
+
+  .min-\[1440px\]\:grid-rows-\[repeat\(3\)266px\] {
+    grid-template-rows: repeat(3)266px;
+  }
+
+  .min-\[1440px\]\:grid-rows-\[repeat\(3266px\)\] {
+    grid-template-rows: repeat(3266px);
+  }
+
+  .min-\[1440px\]\:grid-rows-\[repeat\(3\2c 266px\)\] {
+    grid-template-rows: repeat(3,266px);
+  }
+
+  .min-\[1440px\]\:grid-rows-\[repeat\(3\2c 190px\)\] {
+    grid-template-rows: repeat(3,190px);
+  }
+
+  .min-\[1440px\]\:grid-rows-\[repeat\(190px\)\] {
+    grid-template-rows: repeat(190px);
+  }
+
+  .min-\[1440px\]\:grid-rows-\[28\] {
+    grid-template-rows: 28;
+  }
+
+  .min-\[1440px\]\:grid-rows-\[282px\] {
+    grid-template-rows: 282px;
+  }
+
+  .min-\[1440px\]\:grid-rows-\[282px_\] {
+    grid-template-rows: 282px;
+  }
+
+  .min-\[1440px\]\:grid-rows-\[282px_2\] {
+    grid-template-rows: 282px 2;
+  }
+
+  .min-\[1440px\]\:grid-rows-\[282px_266px\] {
+    grid-template-rows: 282px 266px;
+  }
+
+  .min-\[1440px\]\:gap-x-5 {
+    -moz-column-gap: 1.25rem;
+         column-gap: 1.25rem;
+  }
+
+  .min-\[1440px\]\:gap-x-\[30px\] {
+    -moz-column-gap: 30px;
+         column-gap: 30px;
   }
 
   .min-\[1440px\]\:px-\[0px\] {
